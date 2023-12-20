@@ -5,12 +5,13 @@ public class ConstructionImpl implements IConstruction {
     private final Stages stages;
     private String message;
 
-    public ConstructionImpl(Stage... stages) {
-        Stages s = new Stages();
-        for (Stage stage : stages) {
-            s.add(stage);
-        }
-        this.stages = s;
+    public ConstructionImpl(Project project, Walls walls, Roof roof, Trim trim) {
+        stages = new Stages();
+        stages.add(project);
+        stages.add(walls);
+        stages.add(roof);
+        stages.add(trim);
+
     }
 
     @Override

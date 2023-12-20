@@ -10,8 +10,4 @@ public abstract class Stage {
         this.stageDescription = stageDescription;
     }
 
-    @Override
-    public String toString() {
-        return "(" + status + " (" + stageDescription + "))";
-    }
 }

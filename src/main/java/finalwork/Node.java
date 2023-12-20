@@ -1,13 +1,14 @@
 package finalwork;
 
 public class Node {
-    public Stage stage;
 
-    public Node next;
+    Node next;
+    Node prev;
+    Stage stage;
 
-    public Node prev;
-
-    public Node(Stage stage) {
+    public Node(Node prev, Stage stage, Node next) {
+        this.prev = prev;
         this.stage = stage;
+        this.next = next;
     }
 }
