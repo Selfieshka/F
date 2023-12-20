@@ -11,7 +11,6 @@ public class ConstructionImpl implements IConstruction {
         stages.add(walls);
         stages.add(roof);
         stages.add(trim);
-
     }
 
     @Override

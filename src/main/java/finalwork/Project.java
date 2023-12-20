@@ -2,7 +2,7 @@ package finalwork;
 
 public class Project extends Stage {
 
-    protected Project(Status status, String stageDescription) {
-        super(status, stageDescription);
+    protected Project(Status status, String description) {
+        super(status, description);
     }
 }

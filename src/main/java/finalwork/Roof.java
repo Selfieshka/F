@@ -2,7 +2,7 @@ package finalwork;
 
 public class Roof extends Stage {
 
-    protected Roof(Status status, String stageDescription) {
-        super(status, stageDescription);
+    protected Roof(Status status, String description) {
+        super(status, description);
     }
 }
